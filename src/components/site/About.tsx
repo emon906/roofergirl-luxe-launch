@@ -58,7 +58,6 @@ export function About() {
           <Reveal
             delay={220}
             className="absolute -bottom-10 -right-4 hidden w-40 overflow-hidden border-4 border-background shadow-soft lg:block"
-            style={undefined}
           >
             <img
               src={textureShingle}
