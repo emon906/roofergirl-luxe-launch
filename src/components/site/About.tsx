@@ -1,16 +1,8 @@
 import { Reveal, useParallax } from "./Reveal";
 import textureShingle from "@/assets/texture-shingle.jpg";
+import ownerAsset from "@/assets/owner.jpg.asset.json";
 
-/**
- * OWNER PHOTO PLACEHOLDER
- * ------------------------------------------------------------------
- * To add the business owner's photo:
- *   1. Put the image file in `src/assets/` (e.g. `owner.jpg`)
- *   2. Uncomment the import below and set OWNER_PHOTO to it.
- */
-// import ownerPhoto from "@/assets/owner.jpg";
-const OWNER_PHOTO: string | null =
-  "https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/600883553_1373503414149602_2535382531602753059_n.jpg";
+const OWNER_PHOTO: string | null = ownerAsset.url;
 
 const facts = [
   { value: "12+", label: "Years on rooftops" },
