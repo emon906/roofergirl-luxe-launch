@@ -31,7 +31,6 @@ export function About() {
                 <img
                   src={OWNER_PHOTO}
                   alt="Portrait of the owner of RooferGirl"
-                  loading="lazy"
                   className="h-full w-full object-cover"
                 />
               ) : (
