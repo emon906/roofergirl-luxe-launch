@@ -1,8 +1,8 @@
 import { Reveal, useParallax } from "./Reveal";
 import textureShingle from "@/assets/texture-shingle.jpg";
-import ownerAsset from "@/assets/owner.jpg.asset.json";
+import ownerPhoto from "@/assets/owner.jpg";
 
-const OWNER_PHOTO: string | null = ownerAsset.url;
+const OWNER_PHOTO: string | null = ownerPhoto;
 
 const facts = [
   { value: "12+", label: "Years on rooftops" },
