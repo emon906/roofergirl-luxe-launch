@@ -6,6 +6,7 @@ import { Services } from "@/components/site/Services";
 import { Projects } from "@/components/site/Projects";
 import { BeforeAfter } from "@/components/site/BeforeAfter";
 import { Trust } from "@/components/site/Trust";
+import { TestimonialBasic } from "@/components/ui/testimonial-basic";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 
@@ -38,6 +39,7 @@ function Index() {
         <Projects />
         <BeforeAfter />
         <Trust />
+        <TestimonialBasic />
         <CTA />
       </main>
       <Footer />
