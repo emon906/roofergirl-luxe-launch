@@ -9,7 +9,8 @@ import textureShingle from "@/assets/texture-shingle.jpg";
  *   2. Uncomment the import below and set OWNER_PHOTO to it.
  */
 // import ownerPhoto from "@/assets/owner.jpg";
-const OWNER_PHOTO: string | null = null;
+const OWNER_PHOTO: string | null =
+  "https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/600883553_1373503414149602_2535382531602753059_n.jpg";
 
 const facts = [
   { value: "12+", label: "Years on rooftops" },
